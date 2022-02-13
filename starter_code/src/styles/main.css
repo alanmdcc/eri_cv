@@ -1,8 +1,8 @@
-@import url(style.css);
-@import url(invitacion.css);
-@import url(proyectos.css);
-@import url(box-3d.css);
-@import url(footer.css);
+@import url(./portada.css);
+@import url(./invitacion.css);
+@import url(./proyectos.css);
+@import url(./box-3d.css);
+@import url(./footer.css);
 
 :root{
     --my-color:#1a043d;
