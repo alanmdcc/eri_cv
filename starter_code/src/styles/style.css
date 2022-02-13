@@ -1,12 +1,3 @@
-#logo{
-    color:var(--my-color);
-    font-weight: bolder;
-    font-size: 20px;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-right: 50px;
-}
-
 #navegacion{
     display: flex;
     flex-direction: row;
@@ -76,18 +67,6 @@
     width: 220px;
     justify-content: space-between;
     margin-bottom: 30px;
-}
-
-.icono{
-    border:3px solid var(--my-color);
-    border-radius: 10%;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
 }
 
 /* Evitar que los links en navegación se amontonen*/

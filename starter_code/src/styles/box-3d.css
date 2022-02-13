@@ -5,14 +5,14 @@
     text-align: center;
     border-radius:15px;
     background-color: rgba(255,255,255,.3);
-/*     border-width: 5px;
-    border-style: solid;
-    border-image: linear-gradient(-45deg,transparent,rgba(255,255,255,1)) 1;
-    backdrop-filter: blur(40px);*/
-
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3),
-                 inset 1px 1px 1px 1px rgba(255,255,255,.3);
+    inset 1px 1px 1px 1px rgba(255,255,255,.3);
  }
+
+.img-box-3d{
+    width:80px;
+    border-radius: 50%;
+}
 
 .coment-box-3d{
     font-size: 20px;

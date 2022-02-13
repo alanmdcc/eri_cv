@@ -2,15 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" /> <!-- HABILITAR MEDIA QUERIES EN CHROME DEVELOPER TOOLS -->
     <title>Alan MdelC</title>
     <link rel="stylesheet" href="src/styles/main.css">
 </head>
+
 <body>
     <main id="main">
+        <!-- BARRA DE NAVEGACION --> 
         <header id="encabezado">
             <nav id="navegacion">
-                <a href="#" class="no-underline"><p id="logo">LOGO</p></a>
+                <a href="#" class="no-underline"><p class="logo">LOGO</p></a>
                 <a href="#" class="no-underline"><p class="menus" id="hola">HOLA</p></a>
                 <a href="#" class="no-underline"><p class="menus">PROYECTOS</p></a>
                 <a href="#" class="no-underline"><p class="menus">HABLEMOS</p></a>
@@ -18,7 +20,7 @@
             </nav>
         </header>   
 
-    
+        <!-- PORTADA -->
         <section id="portada">
             <div id="portada-izq">
                 <div>
@@ -41,6 +43,7 @@
             </div>
         </section>
 
+        <!-- INVITACION CON FLECHA -->
         <section id="sct-invitacion">
             <p id="txt-invitacion1">Participé en @GenerationMX y realicé proyectos como a continuación veremos.</p>
             <p id="txt-invitacion2">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
@@ -48,30 +51,92 @@
             <img id="img-flecha" src="src/img/arrow-down.svg" alt="flecha hacia abajo">
         </section>
 
-        <section id="proyecto1">
-            <div id="proyecto1-izq">
+        <!-- PROYECTO 1 -->
+        <section class="sct-proyecto">
+            <div class="sct-proyecto-texto">
                 <a href="#" class="no-underline">
-                    <p id="txt-proyecto1-1">mi_proyecto.com</p>
+                    <p class="titulo-proyecto">mi_proyecto.com</p>
                 </a> 
-                <p id="txt-proyecto1-2">Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades de front-end</p>
+                <p class="desc-proyecto">Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades de front-end</p>
                    
-                <div id="btns-proyecto1">
+                <div class="btns-proyecto">
                     <button class="boton">VER PROYECTO</button>
                     <button class="boton-transp">VER CÓDIGO</button>
                 </div>
             </div>
-            <div id="proyecto1-der">
-                <img id="img-proyecto1" src="src/img/laptop.png" alt="">
+            <div class="sct-proyecto-img">
+                <img class="img-proyecto" src="src/img/laptop.png" alt="">
             </div>
         </section>
 
+        <!-- BOX 3D 1 -->
         <section class="box-3d">
+            <img class="img-box-3d" src="src/img/profile_picture_other.jpg" alt="foto de perfil">
             <p class="coment-box-3d">"Alan ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1.5 meses"</p>
             <p class="nombre-box-3d">ERIKA FLORES / INSTRUCTOR GENERATION</p>
         </section>
 
-
+        <!-- PROYECTO 2 -->
+        <section class="sct-proyecto invertir-orden">
+            <div class="sct-proyecto-texto" id="sct-proyecto-2-texto">
+                <a href="#" class="no-underline">
+                    <p class="titulo-proyecto">MARVOL</p>
+                </a> 
+                <p class="desc-proyecto">Es el sitio oficial de Marvol Enterntainment. Explore películas, personajes, cómics, preogramas de televisión, videos y más oficiales de Marvol</p>
+                   
+                <div class="btns-proyecto">
+                    <button class="boton">VER PROYECTO</button>
+                    <button class="boton-transp">VER CÓDIGO</button>
+                </div>
+            </div>
+            <div class="sct-proyecto-img">
+                <img class="img-proyecto" id="img-proyecto-2" src="src/img/phone.png" alt="">
+            </div>
+        </section>
         
+        <!-- BOX 3D 2 -->
+        <section class="box-3d">
+            <img class="img-box-3d" src="src/img/profile_picture_other.jpg" alt="foto de perfil">
+            <p class="coment-box-3d">"Alan ha sido una persona que desmuestra sus habilidades y ha crecido mucho"</p>
+            <p class="nombre-box-3d">ERIKA FLORES / INSTRUCTOR GENERATION</p>
+        </section>
+
+        <!-- PROYECTO 3 -->
+        <section class="sct-proyecto">
+            <div class="sct-proyecto-texto">
+                <a href="#" class="no-underline">
+                    <p class="titulo-proyecto">NETNET</p>
+                </a> 
+                <p class="desc-proyecto">Películas y series ilimitadas y mucho más. Dsfruta donde quieras. Cancela cuando quieras</p>
+                   
+                <div class="btns-proyecto">
+                    <button class="boton">VER PROYECTO</button>
+                    <button class="boton-transp">VER CÓDIGO</button>
+                </div>
+            </div>
+            <div class="sct-proyecto-img">
+                <img class="img-proyecto" id="img-proyecto-3" src="src/img/tablet.png" alt="">
+            </div>
+        </section>
+
+        <!-- BOX 3D 3 -->
+        <section class="box-3d">
+            <img class="img-box-3d" src="src/img/profile_picture_other.jpg" alt="foto de perfil">
+            <p class="coment-box-3d">"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos"</p>
+            <p class="nombre-box-3d">MARCO CORTEZ / NETNET</p>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <a href="#" class="no-underline"><p class="logo" id="logo-white">LOGO</p></a>
+            <p id="copyright">Inspirado en la obra de JC Copyright 2021</p>
+            <div id="iconos">
+                <a href="#"><div class="icono"><img  src="src/img/icon-phone.png" alt="teléfono icon"></div></a>
+                <a href="#"><div class="icono"><img  src="src/img/mail.png" alt="email icon"></div></a>
+                <a href="#"><div class="icono"><img  src="src/img/icon-instagram.png" alt="instagram icon"></div></a>
+                <a href="#"><div class="icono"><img  src="src/img/icon-twitter_squared.png" alt="twitter icon"></div></a>
+            </div>
+        </footer>
     </main>
 
 </body>
