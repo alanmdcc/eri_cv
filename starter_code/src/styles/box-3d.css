@@ -1,0 +1,26 @@
+.box-3d{
+    width: 60vw;
+    padding:60px 10px 60px;
+    margin:80px auto 80px;
+    text-align: center;
+    border-radius:15px;
+    background-color: rgba(255,255,255,.3);
+/*     border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(-45deg,transparent,rgba(255,255,255,1)) 1;
+    backdrop-filter: blur(40px);*/
+
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3),
+                 inset 1px 1px 1px 1px rgba(255,255,255,.3);
+ }
+
+.coment-box-3d{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nombre-box-3d{
+    font-size: 15px;
+    color:rgb(59, 53, 94);
+
+}
