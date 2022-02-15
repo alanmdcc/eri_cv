@@ -89,6 +89,9 @@
         height: 120px;
         justify-content: space-between;
     }
-
+    /* CORRECIONES PROYECTO 2*/
+    #sct-proyecto-2-texto{
+        margin-left: 0vw;
+    }
 
 }

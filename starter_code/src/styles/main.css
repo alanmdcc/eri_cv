@@ -3,6 +3,7 @@
 @import url(./proyectos.css);
 @import url(./box-3d.css);
 @import url(./footer.css);
+@import url(./form.css);
 
 :root{
     --my-color:#1a043d;
